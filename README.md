@@ -38,6 +38,7 @@ Additional config files:
 
 1. Download all dependent libraries, move them into the libs/ folder
 2. Remove all version numbers from the lib filenames, so they match with them in MANIFEST.MF
+3. Import the existing project in Eclipse
 3. Run build.ant in Eclipse to build jcdbe.jar
 
 ## Running
