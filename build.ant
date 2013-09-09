@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="jcdbe" default="dist">
+	<property name="jar" value="${basedir}\jcdbe.jar" />
+
+	<target name="prepare"></target>
+	<target name="clean"></target>
+	<target name="compile" depends="clean, prepare"></target>
+	<target name="dist" depends="compile">
+		<echo>Creating ${jar}...</echo>
+		<jar basedir="bin" jarfile="${jar}" compress="false" manifest="MANIFEST.MF">
+		</jar>
+	</target>
+
+</project>

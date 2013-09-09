@@ -1,0 +1,13 @@
+*.core
+*.tmp
+*.bak
+*.swp
+*.csv
+*.jar
+
+# Eclipse
+.project
+.classpath
+.externalToolBuilders/
+.settings/
+bin/

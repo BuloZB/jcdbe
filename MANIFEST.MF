@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Main-Class: net.tjado.jcdbe.jcdbe
+Class-Path: libs/ini4j.jar libs/log4j.jar libs/ojdbc.jar libs/opencsv.jar libs/commons-cli.jar
